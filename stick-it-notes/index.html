@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stick It Notes</title>
+</head>
+<body>
+    <div id="heading"><h1>Stick-It notes</h1></div>
+    <p id="ts">By Harshit</p>
+    <div id="form">
+        <form id="inputForm">
+            <input type="text" name="title" id="new-note-title-input" 
+            class="inputText" placeholder="Title" autocomplete="off" required autofocus/>
+            <input type="text" name="content" id="new-note-body-input" 
+            class="inputText" placeholder="Content" autocomplete="off" required />
+            <button type="submit" class="btn">Create Note</button>
+        </form>
+    </div>
+    <h3 id="no-notes">No Notes Found,add One!</h3>
+    <ul id="notes">
+        
+    </ul>
+    <script src="js/script.js"></script>
+</body>
+</html>
